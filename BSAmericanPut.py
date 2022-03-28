@@ -205,7 +205,7 @@ plt.ylabel('Option value')
 plt.title('American vs European put option')
 plt.show()
 
-# Computation of the exercise boundary
+# Computation of the boundary
 tm = tgrid(N,T)
 exBound = computeExBoundary(r=r,sigma=sigma,K=K,T=T,N=N)
 
