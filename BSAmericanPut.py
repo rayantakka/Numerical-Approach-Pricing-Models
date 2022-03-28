@@ -8,7 +8,7 @@ import math
 import PSOR # For this line to work, PSOR.py must be in the same directory as this script.
 
 
-# Computation of the value of an american put option and plot of the exercise boundary
+# Computation of the value of an american put option and plot of the boundary
 
 PSOR.testPSOR() # Calls testPSOR() which is defined in PSOR.py.
 
@@ -213,5 +213,5 @@ exBound = computeExBoundary(r=r,sigma=sigma,K=K,T=T,N=N)
 plt.plot(tm,exBound)
 plt.xlabel('T-t')
 plt.ylabel('s^*(t)')
-plt.title('Exercise boundary')
+plt.title('boundary')
 plt.show()
