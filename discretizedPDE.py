@@ -5,6 +5,11 @@ from scipy.sparse.linalg import spsolve
 from scipy.stats import norm
 import math
 
+#In this part, we implement a discrete solver for the BS equation  with
+# Dirichlet boundary conditions, rhs f specified as a function and initial
+# condition u0 specified as a function. For the space discretization, we use FEM
+# and theta-scheme for the time discretization
+
 # Black-Scholes constants:
 sigma = 0.3
 T = 1
